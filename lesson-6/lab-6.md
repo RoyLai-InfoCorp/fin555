@@ -31,14 +31,14 @@ b) If you do not have issue permission, ask the admin node to grant you issue pe
 
 ### Step 2. Issue Asset
 
-Refer to the notes on [issue](./mc-6.md#a-issue-command) command and use it to complete step 2, ie. Node2 issues an asset into its own wallet.
+Refer to the notes on [issue](./multichain-assets.md#a-issue-command) command and use it to complete step 2, ie. Node2 issues an asset into its own wallet.
 
 ### Step 3. Send Asset
 
-Refer to the notes on [send](./mc-6.md#b-send-command) command and use it to complete step 3, ie. Node2 sends the asset to Node1.
+Refer to the notes on [send](./multichain-assets.md#b-send-command) command and use it to complete step 3, ie. Node2 sends the asset to Node1.
 
 ### Step 4: Node 1 Check Balance
 
-Refer to the notes on [getaddressbalances](./mc-6.md#c-getaddressbalances-command) command and use it to complete step 4, ie. Node1 checks its wallet balance to confirm it has received the asset.
+Refer to the notes on [getaddressbalances](./multichain-assets.md#c-getaddressbalances-command) command and use it to complete step 4, ie. Node1 checks its wallet balance to confirm it has received the asset.
 
 <center>END OF DOC</center>

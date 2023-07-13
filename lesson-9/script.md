@@ -8,6 +8,8 @@
 
 This lesson primarily focuses on how the Bitcoin protocol utilizes its own scripting language to facilitate transaction spending. However, the concept is fundamental to the functioning of transactions in blockchain technology as a whole. It enables the transfer of ownership of digital assets from one party to another.
 
+---
+
 ## 2. Script - Bitcoin Programming Language
 
 The scripting language used by MultiChain is a simple stack-based language.

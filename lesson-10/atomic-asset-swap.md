@@ -205,6 +205,8 @@ d) Check balance again
 
 The available balance is reduced from 300 to 200. This is because `getaddressbalances` only shows the available balance and excluded the locked balance. To check the total balances, you can use `getaddressbalances 12tDDPm72xRFqmQ96jJtqT4cCGwTHNVsz2A4HB 1 true`
 
+---
+
 ### b. "getrawtransaction" Command
 
 Return the raw transaction data. This command is very useful for debugging transactions, when given only a transaction hash.
@@ -273,6 +275,8 @@ JSON object representing the decoded transaction.
 }
 ```
 
+---
+
 ### c. "listlockunspent" Command
 
 Returns list of temporarily unspendable outputs as an array of txid-vout pair.
@@ -291,6 +295,8 @@ listlockunspent
     },...
 ]
 ```
+
+---
 
 ### d. "lockunspent" Command
 
@@ -357,6 +363,8 @@ d) The unspent list is now empty.
 # ]
 ```
 
+---
+
 ### e. "createrawexchange" Command
 
 Creates new exchange transaction. This command is used by the first party of the exchange to create a partial exchange transaction. The exchange can be completed by the second party of the exchange using "appendrawexchange" command.
@@ -398,6 +406,8 @@ b) Create a partial exchange transaction using the txid and vout representing 10
 #abc8123037d9f302867d88ac1c73706b7118745fff87095373b588a028b9e3113a6400
 #0000000000007500000000
 ```
+
+---
 
 ### f. "decoderawexchange" Command
 
@@ -452,6 +462,8 @@ In this example, the hexadecimal string of the exchange transaction is created p
 #     "complete" : false
 # }
 ```
+
+---
 
 ### g. "appendrawexchange" Command
 
@@ -627,6 +639,8 @@ This transaction has 2 vins and 2 vouts that corresponds to the diagram below.
 
 ![mc-10-4](./img/mc-10-4.png)
 
+---
+
 ### h. "sendrawtransaction" Command
 
 Submits raw transaction (serialized, hex-encoded) to local node and network.
@@ -641,3 +655,9 @@ sendrawtransaction "tx-hex"
 
 **Result:**
 "hex" (string) The transaction hash in hex
+
+---
+
+## 6. Lab
+
+Proceed to [Lab-10](./lab-10.md)

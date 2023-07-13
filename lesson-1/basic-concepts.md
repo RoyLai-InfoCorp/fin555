@@ -360,3 +360,9 @@ graph LR;
     B("Configure Permission") --> C("Publish Streams")
     C("Publish Streams") --> D("Subscribe Streams")
 ```
+
+---
+
+## 15. Lab
+
+Proceed to [Lab-1](./lab-1.md)

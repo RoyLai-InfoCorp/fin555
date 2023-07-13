@@ -133,3 +133,9 @@ Within the data directories, you will also be able to find 2 configuration files
 -   **blockchain parameters file (params.dat)** contains mainly the settings for controlling the MultiChain’s protocol. It is important to note that this file must be configured before you start running the multichain service because once the protocol is started you may not be able to change some of the parameters later on.
 
 -   **runtime configuration file (multichain.conf)** contains the configuration that is applied only to individual nodes as opposed to the protocol settings from the blockchain parameters file.
+
+---
+
+## 5. Lab
+
+Proceed to [Lab-2](./lab-2.md)

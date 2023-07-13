@@ -70,5 +70,3 @@ In order for a transaction to be valid, it must satisfy the following conditions
 In order to validate the last point, the transaction must be checked against the UTXO set to ensure that the transaction output being spent is not already spent by another transaction.
 
 ![mc-8-5](./img/mc-8-5.png)
-
----

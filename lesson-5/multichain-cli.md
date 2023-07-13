@@ -146,7 +146,7 @@ Do not confuse the use of punctuation marks in JSON string.
 
 ---
 
-## Basic MultiChain Commands
+## 4. Basic MultiChain Commands
 
 ### a. `getinfo` command
 
@@ -194,6 +194,8 @@ Note:
     -   port: make sure this port number is opened by the firewall for connection.
     -   blocks: this number should be constantly changing if new blocks are mined.
     -   connections: this number should not be 0 if you are connected to the network.
+
+---
 
 ### b. `getpeerinfo` command
 
@@ -248,6 +250,8 @@ Note:
 -   Handshake: wallet address of the peer connected to this node
 -   Is the number of peers returned from this list equal to the number of nodes in your group?
 -   If not, then some nodes may be offline or they were not configured correctly to connect into the group. Otherwise, they may be indirectly connected to you via another node that you are connected to.
+
+---
 
 ### c. `getaddresses` command
 
@@ -316,6 +320,8 @@ In the final example, the output of the getaddresses command with verbose inform
 
 -   **12S7Eg2Gz1ZSdRXqVjzjoSybBV1m9umdZz5nHL** is owned by the node **(ismine=true)**. This means this node has the private key to this address in its wallet. It has more detailed information available,eg. pubkey, including the public key and synchronization status.
 -   **1bXk12QuUGXv9WXLaZwbTjfJ6UvNBJmuD9CFqc** is a watch-only **(iswatchonly=true)** address and is not owned by the node. That means this node does not have the private key to the address as this address is generated from another node. It can only shows basic information without the public key or synchronization status.
+
+---
 
 ### d. `listpermissions` command
 
@@ -459,6 +465,8 @@ The output shows that the address contains only 2 permissions: `send` and `recei
 ]
 ```
 
+---
+
 ### e. `grant` command
 
 Grant permission(s) to a given address.
@@ -521,3 +529,9 @@ The command below grant stream-level permissions to a stream called stream01.
 ```sh
 grant {replace-with-address} stream01.admin, stream01.write, stream01.activate
 ```
+
+---
+
+## 5. Lab
+
+Proceed to [Lab-2](./lab-2.md)

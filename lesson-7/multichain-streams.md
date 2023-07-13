@@ -30,7 +30,7 @@ In this diagram, Node1 is a node with "create" permission and Node2 is a node th
 
 ---
 
-### 2. MultiChain Stream and Stream Items
+## 2. MultiChain Stream and Stream Items
 
 We can draw an analogy between a stream and a database table. A stream is like a database table, and a stream item is like a database record. However, unlike a database, a stream item cannot be deleted once it is created; it can only be appended to the stream.
 
@@ -56,7 +56,7 @@ These characteristics enable the blockchain to be used in a way that is distinct
 
 ---
 
-## 3. MultiChain Asset Commands
+## 3. MultiChain Stream Commands
 
 ### a. "create stream" Command
 
@@ -331,3 +331,9 @@ The following example creates a stream item with multiple keys and then retrieve
 ```
 
 The example output shows that key1 returns 1 item while key2 returns 2 items. That is because key2 included another item which also contains key2. The last command returns 0 items because key4 does not exist.
+
+---
+
+## 5. Lab
+
+Proceed to [Lab-7](./lab-7.md)
