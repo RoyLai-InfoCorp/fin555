@@ -240,9 +240,11 @@ This consensus-based approach helps maintain the integrity and security of the n
 
 Decentralized consensus governance fosters a more democratic and inclusive decision-making process within blockchain networks, promoting shared ownership, and reducing concentration of power.
 
-<div style="text-align:center">
-    <img src="./img/governance.png" alt="Image Description">
-</div>
+![governance](./img/governance.png)
+
+<!-- <div style="text-align:center">
+    <img src="img/governance.png" alt="Image Description">
+</div> -->
 
 ### Configuring Decentralized Governance
 
@@ -262,9 +264,11 @@ Unlike public blockchains, private blockchains like MultiChain do not require th
 
 Using a round robin consensus protocol in MultiChain helps avoid node centralization, enhances the fairness of the network, and ensures that the responsibility of mining blocks is evenly distributed among the participating nodes.
 
-<div style="text-align:center">
+![governance](./img/robin.png)
+
+<!-- <div style="text-align:center">
     <img src="./img/robin.png" alt="Image Description">
-</div>
+</div> -->
 
 ---
 

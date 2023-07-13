@@ -17,7 +17,7 @@ The scripting language used by MultiChain is a simple stack-based language.
 In conventional arithmetic notations, the operator sits between the 2 operands and we call this the infix notation. For example.
 
 <center>11 - 2 x 3 = 11 - 6 = 5 </center>  
-</br>
+<br />
 
 The expression `11 - 2 x 3` is evaluated by first calculating `3 x 2` which resolves to `6` and then `11 – 6` to get `5`, according to the rules of arithmetics.
 
@@ -45,7 +45,7 @@ To evaluate the postfix expression, we can follow these steps:
 By going through this steps, we get the results:
 
 <center>11 2 3 x - = 11 6 - = 5</center>
-</br>
+<br />
 
 ---
 
