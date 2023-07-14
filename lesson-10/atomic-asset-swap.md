@@ -10,7 +10,7 @@ The simplest way to perform an exchange of asset between between Alice and Bob i
 
 One transaction is created by Alice to send x number of Asset A to Bob and the other transaction is created by Bob to send y number of Asset B.
 
-![mc-10-1][def]
+![mc-10-1](./img/mc-10-1.svg)
 
 The problem with bilateral swap is the counterparty risk. For example, if Alice sends Asset A to Bob but Bob does not send Asset B to Alice, then Alice will lose her Asset A.
 
@@ -20,7 +20,7 @@ The problem with bilateral swap is the counterparty risk. For example, if Alice 
 
 To overcome this problem where Alice and Bob cannot trust each other, they will use a reputable trusted third party, called a TTP, to act as the middleman in facilitating the exchange. Such a TTP can be a bank, a lawyer or a notary but is typically an entity that both Alice and Bob trust.
 
-![mc-10-2][def]
+![mc-10-2](./img/mc-10-2.svg)
 
 Alice and Bob are willing to pay a premium to the TTP (trusted third party) to facilitate this exchange. However, Alice and Bob have not eliminated the counterparty risk but merely shifted the risk to the TTP with the hope that the risk is smaller.
 
@@ -40,7 +40,7 @@ In the real world, these kinds of exchanges usually only take place in proximity
 
 Blockchain offers a solution to this problem by allowing Alice and Bob to exchange their assets directly with each other without the need for a TTP. The blockchain equivalence to delivery-vs-payment is called an atomic swap.
 
-![mc-10-3][def]
+![mc-10-3](./img/mc-10-3.svg)
 
 Atomic basically means that the swapping of digital assets by two parties can only result in either one of two states: success if the transactions from both directions are successful, or cancellation if either or both transactions are unsuccessful, without any loss to either party.
 
