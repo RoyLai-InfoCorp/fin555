@@ -534,4 +534,4 @@ grant {replace-with-address} stream01.admin, stream01.write, stream01.activate
 
 ## 5. Lab
 
-Proceed to [Lab-2](./lab-2.md)
+Proceed to [Lab-5](./lab-5.md)
