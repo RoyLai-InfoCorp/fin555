@@ -15,6 +15,8 @@ Here are some characteristics of MultiChain that is useful to bear in mind when 
 -   It is non-turing complete.
 -   Mining is not required for consensus
 
+We will explain the meaning of these terms in the following section.
+
 The reason why it is chosen for this class is that it is designed to be off-the-shelf, so you don't need to have a strong technical background to use it. Given its private and public blockchain heritage, it serves as a good learning tool to expose you to different practical aspects of blockchain operations.
 
 ## 3. Double Spending Problem
