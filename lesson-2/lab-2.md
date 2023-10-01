@@ -1,45 +1,8 @@
-# Lab - Setup Private Blockchain
+# Lab 2 - Setup Private Blockchain
 
-## 1. Organise into Groups
+## 1. Lab Instructions
 
-### Important Notes
-
-1. Once the group is formed, it will be permanent unless you want to go through the entire process of connecting to a new group. So, please make sure that you are happy with your group before proceeding.
-
-2. If you are the group leader, you will be responsible for managing the blockchain network for your group. This includes creating the blockchain, granting permissions, and managing the nodes. Therefore, your team mates will depend on you to be present during the lab sessions.
-
-3. The minimum group size is 3 members. If you have less than 3 members, you will not be able to complete your lab assignments and GBA as well.
-
-### Group Instructions
-
-1. Organize into Groups:
-
-    - Form groups of between 3 to 5 members each.
-    - Ensure that all members within a group are using the same operating system (either Windows or macOS).
-    - This consistency in operating systems will make it easier for group members to assist each other and minimize disruptions.
-
-2. Appoint a Group Leader:
-
-    - Choose one member from each group to be the Blockchain Administrator or Group Leader.
-    - The Group Leader will be responsible for managing the blockchain network for the group.
-
-3. Access the Google Spreadsheet:
-
-    - Open the Google Spreadsheet by clicking on the following link: [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1vzqL9_a7Jsm0aeHa9a_91T3zyTfUUsS5cZQZMJcp2rs/edit?usp=sharing).
-    - Each group will have its own tab within the spreadsheet, labeled as "Group 1," "Group 2," "Group 3," etc.
-
-4. Enter Group Members' Information:
-    - Locate the tab corresponding to your group within the spreadsheet.
-    - Enter the relevant information of each group member into the respective columns provided.
-    - Fill in the necessary details as instructed on the spreadsheet.
-
-By following these steps, you will successfully organize yourselves into groups, assign a Group Leader, and enter your group members' information into the collaborative Google Spreadsheet.
-
----
-
-## 2. Lab Instructions
-
-The prupose of this lab is to setup a private blockchain network based on the flow below. The group should discuss and understand the flow before continuing. The labels Node1, Node2 and NodeN are arbitrary and can be replaced with any name.
+The purpose of this lab is to setup a private blockchain network based on the flow below. The group should discuss and understand the flow before continuing. The labels Node1, Node2 and NodeN are arbitrary and can be replaced with any name.
 
 ```mermaid
 sequenceDiagram

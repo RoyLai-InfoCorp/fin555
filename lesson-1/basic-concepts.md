@@ -33,7 +33,7 @@ Of course, you cannot allow that to happen when it comes to payment because if y
 
 ![burglar](./img/burglar.png)
 
-So this what the double spending problem is about.
+So this what the double spending problem is really about.
 
 The conventional way of solving the double spend problem is to utilize a trusted third party that manages a centralized ledger, which keeps track of the balance for each counterparty. However, the drawback of this approach is that you do not have visibility into everyone's balance, so you must trust that this centralized third party is effectively managing everyone's accounts. While we often take this trust for granted, it can come at a significant cost as any bankruptcy or failure of the trusted third party could result in the loss of your money.
 
@@ -69,7 +69,7 @@ Without a centralized timer, there is no easy way to determine whether a message
 
 ### Boeing 777 vs Bitcoin
 
-Again, the solution to the Byzantine General's Problem is not new. It was invented in the 1970s.
+But, the solution to the Byzantine General's Problem is not new. It was invented in the 1970s.
 
 So, what makes Bitcoin, which was the first blockchain system created in the world, different in solving the BGP problem compared to how Boe777 is solving it?
 
